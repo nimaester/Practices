@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+.hero {
+  color: white;
+  background-color: #23424a;
+  padding: 5rem 0rem 5rem 0rem;
+}
+
+.container,
+.nav-list {
+  width: 75%;
+  margin: 0 auto;
+  max-width: 1100px;
+  display: flex;
+}
+
+.text-box {
+  width: 60%;
+  margin: 1rem;
+}
+
+.image img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.image {
+  align-self: center;
+  /* text-align: center; */
+  width: 40%;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+  font-weight: 200;
+  line-height: 1.7;
+}
+
+.text-box button {
+  margin-top: 2rem;
+  font-weight: 400;
+  border-radius: 20px;
+  padding: 10px 25px;
+  color: black;
+  background-color: #38cfd9;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.right-text {
+  background-color: #136c72;
+  width: 40%;
+  color: white;
+  text-align: center;
+}
+
+.two {
+  margin: 2rem auto;
+}
+
+.left-text {
+  margin: 1rem;
+  width: 60%;
+}
+
+.left-text h1 {
+  color: #136c72;
+}
+
+.left-text p {
+  margin-top: 1rem;
+  font-weight: lighter;
+}
+
+.col {
+  margin: 3rem auto;
+}
+
+ul {
+  list-style: none;
+}
+
+.nav-item + .nav-item {
+  margin-left: 2rem;
+}
+
+nav button {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+}
+
+header {
+  padding: 1rem;
+  background: #136c72;
+  color: white;
+}
+
+.nav-list {
+  justify-content: flex-end;
+  align-items: center;
+}
