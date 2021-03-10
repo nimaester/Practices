@@ -115,3 +115,8 @@ header {
   display: flex;
   align-items: center;
 }
+
+.logo {
+  margin-right: 2rem;
+  width: 4rem;
+}
