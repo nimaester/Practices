@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  letter-spacing: 5px;
+  padding-bottom: 1rem;
+}
+
+.header {
+  min-height: 550px;
+  background-color: #f3eed9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+  width: 50%;
+}
+
+.hero h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 60px;
+  color: #824936;
+}
+
+.row {
+  margin: 5rem auto;
+  max-width: 1160px;
+  width: 75%;
+}
+
+h2 {
+  padding-bottom: 3rem;
+  font-size: 36px;
+}
+
+.info-title {
+  color: #824936;
+  text-align: center;
+}
+
+.info,
+.card {
+  display: flex;
+  gap: 4rem;
+}
+
+.info-text {
+  width: 50%;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 1.5;
+}
+
+.card {
+  color: #f3eed9;
+}
+
+.card-img,
+.card-text {
+  width: 50%;
+}
+
+.container {
+  padding: 1rem 0rem;
+}
+
+.container-one {
+  background-color: #222c2a;
+}
+
+.container-two {
+  background-color: #824936;
+}
