@@ -162,7 +162,28 @@ nav button {
   background-color: #222c2a;
   display: flex;
   flex-direction: column;
+  color: white;
+  margin: 0 auto;
+  height: 30%;
+  position: fixed;
+  width: 20vw;
+  padding: 2rem;
+  right: 0;
+  /* display: none; */
 }
+
+.navlist ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.navlist li {
+  cursor: pointer;
+  padding: 1rem 0rem;
+  list-style: none;
+}
+
 @media (max-width: 800px) {
   .container {
     flex-direction: column;
