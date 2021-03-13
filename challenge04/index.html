@@ -15,7 +15,9 @@
       rel="stylesheet"
     />
     <script src="https://kit.fontawesome.com/cba796d99c.js" crossorigin="anonymous"></script>
+
     <title>Challenge4</title>
+
   </head>
   <body>
       <div class="navbar">
@@ -38,7 +40,7 @@
             <li class="nav-item">
               <button>SIGN UP</button>
             </li>
-            <li class="nav-item bars">
+            <li class="nav-item bars" id="menu">
               <i class="fas fa-bars fa-2x"></i>
             </li>
           </ul>
@@ -120,6 +122,14 @@
       </div>
       </div>
     </section>
+    <script>
+      const navToggle = document.querySelector(".bars");
+      const nav = document.querySelector(".navlist");
 
+      navToggle.addEventListener("click", () => {
+        nav.classList.toggle("visible");
+      });
+
+    </script>
   </body>
 </html>

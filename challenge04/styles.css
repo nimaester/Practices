@@ -129,6 +129,7 @@ nav {
   max-width: 1128px;
   display: flex;
   justify-content: space-between;
+  z-index: 5;
 }
 
 .nav-list {
@@ -154,7 +155,8 @@ nav {
   display: none;
 }
 
-nav button {
+nav button,
+.navlist button {
   padding: 0.5rem;
 }
 
@@ -162,14 +164,21 @@ nav button {
   background-color: #222c2a;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
-  margin: 0 auto;
-  height: 30%;
+  height: 20%;
   position: fixed;
-  width: 20vw;
+  width: 15vw;
   padding: 2rem;
   right: 0;
-  /* display: none; */
+  transform: translateX(150%);
+  transition: ease all 0.2s;
+  z-index: 1;
+}
+
+.visible {
+  transform: translateX(0%);
 }
 
 .navlist ul {
