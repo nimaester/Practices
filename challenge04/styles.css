@@ -150,6 +150,10 @@ nav {
   margin-left: 2rem;
 }
 
+.bars {
+  transform: translateX(0%);
+}
+
 nav button {
   padding: 0.5rem;
 }
