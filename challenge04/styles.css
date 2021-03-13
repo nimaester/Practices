@@ -151,7 +151,7 @@ nav {
 }
 
 .bars {
-  transform: translateX(0%);
+  display: none;
 }
 
 nav button {
@@ -178,5 +178,11 @@ nav button {
   .info-text {
     width: 100%;
     margin: 1rem auto;
+  }
+  .nav-item {
+    display: none;
+  }
+  .bars {
+    display: block;
   }
 }
