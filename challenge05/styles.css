@@ -122,7 +122,7 @@ h1 {
 }
 
 .section-three {
-  background-color: rgb(199, 199, 199);
+  background-color: rgb(230, 230, 230);
 }
 
 h2 {
@@ -162,6 +162,16 @@ h2 {
   margin-top: 1rem;
   padding: 2rem;
   text-align: center;
+}
+
+.section-five {
+  background-color: #3b4050;
+}
+
+.five h1 {
+  color: white;
+  font-size: 42px;
+  padding-bottom: 2rem;
 }
 
 @media (max-width: 700px) {
